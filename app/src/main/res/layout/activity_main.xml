@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/etString"
+    android:inputType="text"
+    android:layout_marginStart="@dimen/margin_30dp"
+    android:layout_marginTop="@dimen/margin_50dp"
+    android:hint="@string/Enter_String"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etFloat"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_50dp"
+            android:hint="@string/Enter_Float"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etDouble"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_50dp"
+            android:hint="@string/Enter_Double"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etChar"
+            android:inputType="text"
+            android:maxLength="1"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_50dp"
+            android:hint="@string/Enter_Char"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnClick"
+            android:text="@string/Click_here"
+            android:layout_marginHorizontal="@dimen/margin_50dp"
+            android:layout_marginTop="@dimen/margin_40dp"/>
+</LinearLayout>
+</layout>

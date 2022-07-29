@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Passingdatawithintent</string>
+    <string name="Enter_Float">Float</string>
+    <string name="Enter_Double">Double</string>
+    <string name="Enter_Char">Char</string>
+    <string name="Click_here">Click Here</string>
+    <string name="Enter_String">String</string>
+    <string name="String">String Received</string>
+    <string name="Float">Float Recevied</string>
+    <string name="Double">Double Received</string>
+    <string name="Char">Char Received</string>
+</resources>
